@@ -1,0 +1,35 @@
+<%- include('../partials/header'); %>
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-1">
+        <img src="./images/logo.jpeg" alt="Logo SoulBank" class="rounded float-left">
+      </div>
+      <div class="col-9">
+        <h1 class="display">SoulBank</h1>
+        <p class="lead">Acesse o menu lateral para outras opções</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row g-2">
+    <div class="col-4">
+      <button type="button" class="btn btn-secondary btn-lg btn-block btn-lg btn-block"><a href="/transacoes"> TELA INICIAL</a></button>
+      <button type="button" class="btn btn-secondary btn-lg btn-block btn-lg btn-block" disabled>SAQUES</button>
+      <button type="button" class="btn btn-secondary btn-lg btn-block btn-lg btn-block" disabled>EXTRATO</button>
+      <button type="button" class="btn btn-secondary btn-lg btn-block btn-lg btn-block"><a href="/transferencia">TRANSFERÊNCIA</a></button>
+    </div>
+    <div class="col-8">
+      <div class="alert alert-success" role="alert">
+        <h3>Seu saldo é de R$ <%=saldoUsuario%></h3>
+         <hr>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<%- include('../partials/footer'); %>
