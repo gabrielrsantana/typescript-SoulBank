@@ -10,3 +10,10 @@ Grupo:
 - Marcia Alves
 - Natali Lucas
 
+
+
+Para rodar o projeto abra o prompt de comando no diretório do arquivo:
+ ntx tsc          - para transpilar os arquivos para .js
+ 
+ node /dist/app.js   - para rodar o app.
+
